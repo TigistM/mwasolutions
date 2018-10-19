@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <p>
-    Welcome to Olympics game schedule!
+      Welcome to Olympics game schedule!
     </p>
   `,
   styles: []

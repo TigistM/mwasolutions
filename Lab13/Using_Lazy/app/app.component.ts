@@ -15,5 +15,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Olympics using Eager';
+  title = 'Olympics using Lazy';
 }

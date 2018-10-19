@@ -16,7 +16,7 @@ export class DetailsGuard implements CanActivate {
       const valid: boolean = this.dataService.isValidId(next.params.id);
       if(valid) return true;
       else{
-        this.router.navigate(['notFound'], { skipLocationChange: true });
+        this.router.navigate(['404'], { skipLocationChange: true });
         return false;
       }
   }

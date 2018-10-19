@@ -6,7 +6,7 @@ import { DataService } from '../db.service';
 @Component({
   selector: 'app-game-details',
   template: `
-    <h3>Game Schedule</h3>
+    <h3>Game Details</h3>
     {{details}}
   `,
   styles: []
